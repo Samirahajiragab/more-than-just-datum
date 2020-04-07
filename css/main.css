@@ -2,42 +2,50 @@ html {
   font-family: 'IBM Plex Sans', sans-serif;
 }
 
-main {
-  background-color: #f2f2f2;
+header {
+  background-color: #ddd;
 }
 
-input {
-  background-image:url(images/search.svg);
-  background-position: left;
+.playground-color {
+  background-color: #efefef;
 }
-tbody tr:nth-child(odd) {
-  background-color: #e2e2e2;
+
+.container {
+  background-color: #fff;
 }
 
 table {
   border-collapse: collapse;
 }
 
-.type{
-  width: 10em;
+.Park {
+  width: 5em;
 }
 
-.group {
+.type {
   width: 6em;
 }
 
-.notes {
-  width: 16em;
+.group {
+  width: 5em;
 }
 
-table {
-  min-width: 50em;
+.swings {
+  width: 5em;
 }
 
-@media only screen and (min-width: 60em) {
+.slides {
+  width: 5em;
+}
 
-  .table-wrapper {
-    overflow: visible;
-  }
+.seesaws {
+  width: 6em;
+}
 
+.Sandboxes {
+  width: 7em;
+}
+
+.Playhouses {
+  width: 7em;
 }
