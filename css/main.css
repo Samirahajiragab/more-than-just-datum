@@ -6,12 +6,13 @@ header {
   background-color: #ddd;
 }
 
-section {
+.panel-near {
   background-color: #efefef;
 }
 
 .container, .playground-color {
   background-color: #fff;
+  border-radius: 3px;
 }
 
 table {
@@ -48,4 +49,15 @@ table {
 
 .playhouses {
   width: 7em;
+}
+ .table-wrapper table {
+    min-width: 45em;
+ }
+
+.search-icon {
+  left: .3em;
+}
+
+input.search-input {
+  padding-left: calc(.4em + 18px);
 }
