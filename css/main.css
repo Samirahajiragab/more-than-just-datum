@@ -2,7 +2,7 @@ html {
   font-family: "IBM Plex Sans", sans-serif;
 }
 
-header {
+.panel-nav {
   background-color: #ddd;
 }
 
@@ -10,7 +10,7 @@ header {
   background-color: #efefef;
 }
 
-.container, .playground-color {
+.card {
   background-color: #fff;
   border-radius: 3px;
 }
@@ -58,6 +58,9 @@ table {
   left: .3em;
 }
 
+.logo {
+  max-width: 200px;
+}
 input.search-input {
   padding-left: calc(.4em + 18px);
 }
